@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Juday" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/main_Red</item>
+        <item name="colorPrimaryVariant">@color/mid_Red</item>
     </style>
 
     <style name="Theme.Juday" parent="Base.Theme.Juday" />

@@ -19,11 +19,16 @@
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-
         android:id="@+id/bottom_navbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@color/main_Red"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/bottom_nav" />
+        app:menu="@menu/bottom_nav"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:itemActiveIndicatorStyle="@color/dark_Red"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/static_TitleText"
+                        android:id="@+id/custom_static_TitleText"
                         android:layout_width="135dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -45,7 +45,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button_Profile"
+                        android:id="@+id/custom_button_Profile"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_weight="1"
@@ -56,7 +56,7 @@
             </androidx.cardview.widget.CardView>
 
             <TextView
-                android:id="@+id/dynamic_CarModel"
+                android:id="@+id/custom_dynamic_CarModel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -66,14 +66,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/custom_imageView"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginBottom="8dp"
-                tools:src="@tools:sample/avatars" />
+                android:src="@drawable/multicab" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_POPCOMBO"
+                android:id="@+id/custom_container_POPCOMBO"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -89,7 +89,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/static_POPCOMBO"
+                        android:id="@+id/custom_static_POPCOMBO"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -101,7 +101,7 @@
                         android:textStyle="bold" />
 
                     <Spinner
-                        android:id="@+id/spinner_POPCOMBO"
+                        android:id="@+id/custom_spinner_POPCOMBO"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginBottom="8dp"
@@ -111,7 +111,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_CARM0DEL"
+                android:id="@+id/custom_container_CARM0DEL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -127,7 +127,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/static_CarModel"
+                        android:id="@+id/custom_static_CarModel"
                         android:layout_width="71dp"
                         android:layout_height="match_parent"
                         android:layout_marginTop="8dp"
@@ -139,7 +139,7 @@
                         android:textStyle="bold" />
 
                     <Spinner
-                        android:id="@+id/spinner_CarModel"
+                        android:id="@+id/custom_spinner_CarModel"
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
                         android:layout_marginTop="8dp"
@@ -149,7 +149,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_DRIVETRAIN"
+                android:id="@+id/custom_container_DRIVETRAIN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -165,7 +165,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_DRIVETRAIN"
+                        android:id="@+id/custom_static_DRIVETRAIN"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
@@ -179,7 +179,7 @@
                         android:textStyle="bold" />
 
                     <Spinner
-                        android:id="@+id/spinner_DRIVETRAIN"
+                        android:id="@+id/custom_spinner_DRIVETRAIN"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="50dp"
@@ -191,7 +191,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_RANGE"
+                android:id="@+id/custom_container_RANGE"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -207,7 +207,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_RANGE"
+                        android:id="@+id/custom_static_RANGE"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
@@ -221,7 +221,7 @@
                         android:textStyle="bold" />
 
                     <Spinner
-                        android:id="@+id/spinner_RANGE"
+                        android:id="@+id/custom_spinner_RANGE"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="50dp"
@@ -233,7 +233,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_PAINT"
+                android:id="@+id/custom_container_PAINT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -249,7 +249,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_PAINT"
+                        android:id="@+id/custom_static_PAINT"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
@@ -273,19 +273,19 @@
                             android:layout_height="match_parent">
 
                             <com.google.android.material.chip.Chip
-                                android:id="@+id/chip"
+                                android:id="@+id/custom_chip"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 app:chipBackgroundColor="#FF0000" />
 
                             <com.google.android.material.chip.Chip
-                                android:id="@+id/chip2"
+                                android:id="@+id/custom_chip2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 app:chipBackgroundColor="#FFFFFF" />
 
                             <com.google.android.material.chip.Chip
-                                android:id="@+id/chip3"
+                                android:id="@+id/custom_chip3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 app:chipBackgroundColor="#000000" />
@@ -296,7 +296,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_WHEELSIZE"
+                android:id="@+id/custom_container_WHEELSIZE"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -312,7 +312,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_WHEELSIZE"
+                        android:id="@+id/custom_static_WHEELSIZE"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
@@ -326,7 +326,7 @@
                         android:textStyle="bold" />
 
                     <Spinner
-                        android:id="@+id/spinner_WHEELSIZE"
+                        android:id="@+id/custom_spinner_WHEELSIZE"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="50dp"
@@ -338,7 +338,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_CHARGING"
+                android:id="@+id/custom_container_CHARGING"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -354,7 +354,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_CHARGING"
+                        android:id="@+id/custom_static_CHARGING"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
@@ -368,7 +368,7 @@
                         android:textStyle="bold" />
 
                     <Spinner
-                        android:id="@+id/spinner_CHARGING"
+                        android:id="@+id/custom_spinner_CHARGING"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="50dp"
@@ -380,7 +380,7 @@
             </androidx.cardview.widget.CardView>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/custom_button_Calcualate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"

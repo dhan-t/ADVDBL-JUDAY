@@ -32,7 +32,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/static_TitleText"
+                        android:id="@+id/stocks_static_TitleText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -46,7 +46,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button_Profile"
+                        android:id="@+id/stocks_button_Profile"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_weight="1"
@@ -57,7 +57,7 @@
             </androidx.cardview.widget.CardView>
 
             <TextView
-                android:id="@+id/static_Title"
+                android:id="@+id/stocks_static_Title"
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
                 android:text="Out of Stock"
@@ -66,7 +66,7 @@
                 android:textStyle="bold" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_RANGE_300"
+                android:id="@+id/stocks_container_RANGE_300"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -82,7 +82,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_RANGE"
+                        android:id="@+id/stocks_static_RANGE_300"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -90,10 +90,11 @@
                         android:text="Range"
                         android:textAlignment="center"
                         android:textSize="24sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:ignore="DuplicateIds" />
 
                     <TextView
-                        android:id="@+id/dynamic_RANGE_STOCK"
+                        android:id="@+id/stocks_dynamic_RANGE_STOCK_300"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -103,7 +104,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_RANGE_Restock"
+                        android:id="@+id/stocks_static_RANGE_Restock_300"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -113,7 +114,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_RANGE_400"
+                android:id="@+id/stocks_container_RANGE_400"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -129,7 +130,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_RANGE"
+                        android:id="@+id/stocks_static_RANGE_400"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -140,7 +141,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_RANGE_STOCK"
+                        android:id="@+id/stocks_dynamic_RANGE_STOCK_400"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -150,7 +151,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_RANGE_Restock"
+                        android:id="@+id/stocks_static_RANGE_Restock_400"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -161,7 +162,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_RANGE_500"
+                android:id="@+id/stocks_container_RANGE_500"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -177,7 +178,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_RANGE"
+                        android:id="@+id/stocks_static_RANGE_500"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -188,7 +189,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_RANGE_STOCK"
+                        android:id="@+id/stocks_dynamic_RANGE_STOCK_500"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -198,7 +199,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_RANGE_Restock"
+                        android:id="@+id/stocks_static_RANGE_Restock_500"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -208,7 +209,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_DRIVETRAIN_ALL"
+                android:id="@+id/stocks_container_DRIVETRAIN_ALL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -224,7 +225,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_DRIVETRAIN"
+                        android:id="@+id/stocks_static_DRIVETRAIN_ALL"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -235,7 +236,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_DRIVETRAIN_STOCK"
+                        android:id="@+id/stocks_dynamic_DRIVETRAIN_STOCK_ALL"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -245,7 +246,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_DRIVETRAIN_Restock"
+                        android:id="@+id/stocks_static_DRIVETRAIN_Restock_ALL"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -255,7 +256,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_DRIVETRAIN_REAR"
+                android:id="@+id/stocks_container_DRIVETRAIN_REAR"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -271,7 +272,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_DRIVETRAIN"
+                        android:id="@+id/stocks_static_DRIVETRAIN_REAR"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -282,7 +283,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_DRIVETRAIN_STOCK"
+                        android:id="@+id/stocks_dynamic_DRIVETRAIN_STOCK_REAR"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -292,7 +293,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_DRIVETRAIN_Restock"
+                        android:id="@+id/stocks_static_DRIVETRAIN_Restock"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -302,7 +303,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_PAINT_Red"
+                android:id="@+id/stocks_container_PAINT_Red"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -318,7 +319,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_PAINT"
+                        android:id="@+id/stocks_static_PAINT_Red"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -329,7 +330,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_PAINT_STOCK"
+                        android:id="@+id/stocks_dynamic_PAINT_STOCK_Red"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -340,7 +341,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_PAINT_Restock"
+                        android:id="@+id/stocks_static_PAINT_Restock_Red"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -351,7 +352,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_PAINT_White"
+                android:id="@+id/stocks_container_PAINT_White"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -367,7 +368,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_PAINT"
+                        android:id="@+id/stocks_static_PAINT_White"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -378,7 +379,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_PAINT_STOCK"
+                        android:id="@+id/stocks_dynamic_PAINT_STOCK_White"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -389,7 +390,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_PAINT_Restock"
+                        android:id="@+id/stocks_static_PAINT_Restock_White"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -399,7 +400,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_PAINT_Black"
+                android:id="@+id/stocks_container_PAINT_Black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -415,7 +416,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_PAINT"
+                        android:id="@+id/stocks_static_PAINT_Black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -426,7 +427,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_PAINT_STOCK"
+                        android:id="@+id/stocks_dynamic_PAINT_STOCK_Black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -436,7 +437,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_PAINT_Restock"
+                        android:id="@+id/stocks_static_PAINT_Restock_Black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -446,7 +447,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_WHEELSIZE_18"
+                android:id="@+id/stocks_container_WHEELSIZE_18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -462,7 +463,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_WHEELSIZE"
+                        android:id="@+id/stocks_static_WHEELSIZE_18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -473,7 +474,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_WHEELSIZE_STOCK"
+                        android:id="@+id/stocks_dynamic_WHEELSIZE_STOCK_18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -484,7 +485,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_WHEELSIZE_Restock"
+                        android:id="@+id/stocks_static_WHEELSIZE_Restock_18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -495,7 +496,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_WHEELSIZE_19"
+                android:id="@+id/stocks_container_WHEELSIZE_19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -511,7 +512,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_WHEELSIZE"
+                        android:id="@+id/stocks_static_WHEELSIZE_19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -522,7 +523,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_WHEELSIZE_STOCK"
+                        android:id="@+id/stocks_dynamic_WHEELSIZE_STOCK_19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -533,7 +534,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_WHEELSIZE_Restock"
+                        android:id="@+id/stocks_static_WHEELSIZE_Restock_19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -543,7 +544,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_WHEELSIZE_20"
+                android:id="@+id/stocks_container_WHEELSIZE_20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -559,7 +560,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_WHEELSIZE"
+                        android:id="@+id/stocks_static_WHEELSIZE_20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -570,7 +571,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_WHEELSIZE_STOCK"
+                        android:id="@+id/stocks_dynamic_WHEELSIZE_STOCK_20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -581,7 +582,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_WHEELSIZE_Restock"
+                        android:id="@+id/stocks_static_WHEELSIZE_Restock_20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -591,7 +592,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_CHARGING_WALL"
+                android:id="@+id/stocks_container_CHARGING_WALL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -607,7 +608,6 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_CHARGING"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -618,7 +618,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_CHARGING_STOCK"
+                        android:id="@+id/stocks_dynamic_CHARGING_STOCK_WALL"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -629,7 +629,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_CHARGING_Restock"
+                        android:id="@+id/stocks_static_CHARGING_Restock_WALL"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -640,7 +640,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/container_CHARGING_MOBILE"
+                android:id="@+id/stocks_container_CHARGING_MOBILE"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -656,7 +656,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/static_CHARGING"
+                        android:id="@+id/stocks_static_CHARGING_MOBILE"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -667,7 +667,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/dynamic_CHARGING_STOCK"
+                        android:id="@+id/stocks_dynamic_CHARGING_STOCK_MOBILE"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -678,7 +678,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/static_CHARGING_Restock"
+                        android:id="@+id/stocks_static_CHARGING_Restock_MOBILE"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="15dp"
@@ -691,7 +691,7 @@
     </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
+        android:id="@+id/stocks_bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

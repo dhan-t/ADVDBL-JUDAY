@@ -1,40 +1,49 @@
 package com.example.juday;
-
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.util.Log;
+
+import com.example.juday.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-
     private ActivityMainBinding binding;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        on.create
+        replaceFragment(new Home_Fragment());
+        binding.bottomNavbar.setBackground(null);
 
-        binding.bottom_navbar.SetOnItemSelectedListener(item -> {
-            switch (item.getItemId()) {
+        binding.bottomNavbar.setOnItemSelectedListener(item -> {
+            int itemId = item.getItemId();
+            Log.d("MenuItemSelected", "Item ID: " + itemId);
 
-                case R.id.customize:
-                    replaceFragment(new Customize_Fragment());
-                    break;
-                case R.id.home:
-                    replaceFragment(new Home_Fragment());
-                    break;
-                case R.id.stocks:
-                    replaceFragment(new Stocks_Fragment());
-                    break;
+            if (itemId == R.id.customize) {
+                replaceFragment(new Customize_Fragment());
+            } else if (itemId == R.id.home) {
+                replaceFragment(new Home_Fragment());
+            } else if (itemId == R.id.stocks) {
+                replaceFragment(new Stocks_Fragment());
+            } else {
+                return false;
             }
-
             return true;
         });
+    }
 
-    }}
+    private void replaceFragment(Fragment fragment) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.frameLayout, fragment);
+        fragmentTransaction.commit();
+    }
+}
