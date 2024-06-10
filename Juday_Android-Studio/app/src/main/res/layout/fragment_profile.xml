@@ -24,11 +24,11 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/custom_static_TitleText"
+                    android:id="@+id/profile_static_TitleText"
                     android:layout_width="135dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -36,13 +36,8 @@
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1" />
-
                 <Button
-                    android:id="@+id/custom_button_Profile"
+                    android:id="@+id/profile_button_Return"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
@@ -57,7 +52,7 @@
             android:layout_height="114dp" />
 
         <TextView
-            android:id="@+id/static_REGISTER"
+            android:id="@+id/profile_static_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="username"
@@ -81,26 +76,26 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/static_Username_Label"
+                    android:id="@+id/profile_static_Username_Label"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Username" />
 
                 <TextView
-                    android:id="@+id/static_Username_Label"
+                    android:id="@+id/profile_dynamic_Username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="pangalan"
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/static_Password_Label"
+                    android:id="@+id/profile_static_Email_Label"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Email" />
 
                 <TextView
-                    android:id="@+id/static_Username_Label"
+                    android:id="@+id/profile_dynamic_Email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="50dp"
@@ -115,6 +110,18 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-
     </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_Red"
+        app:itemActiveIndicatorStyle="@color/dark_Red"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav" />
 </androidx.constraintlayout.widget.ConstraintLayout>

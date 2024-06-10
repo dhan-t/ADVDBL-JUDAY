@@ -28,7 +28,6 @@
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
         app:itemActiveIndicatorStyle="@color/dark_Red"
-
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
