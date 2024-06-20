@@ -83,18 +83,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
-                android:orientation="horizontal">
-
-                <Space
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                android:orientation="horizontal"
+                android:weightSum="2">
 
                 <LinearLayout
                     android:id="@+id/opened_container_StaticTexts"
-                    android:layout_width="190dp"
+                    android:layout_width="match_parent"
                     android:layout_height="144dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <Space
@@ -103,7 +100,7 @@
 
                     <TextView
                         android:id="@+id/opened_static_OrderNum"
-                        android:layout_width="175dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Order Number:"
                         android:textAlignment="textEnd"
@@ -111,7 +108,7 @@
 
                     <TextView
                         android:id="@+id/opened_static_Stocks"
-                        android:layout_width="175dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Pending Stocks:"
                         android:textAlignment="textEnd"
@@ -123,7 +120,7 @@
 
                     <TextView
                         android:id="@+id/opened_static_EstRelease"
-                        android:layout_width="175dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Est. Release:"
                         android:textAlignment="textEnd"
@@ -132,9 +129,10 @@
 
                 <LinearLayout
                     android:id="@+id/opened_container_DynamicTexts"
-                    android:layout_width="185dp"
+                    android:layout_width="match_parent"
                     android:layout_height="144dp"
                     android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <Space
@@ -143,7 +141,7 @@
 
                     <TextView
                         android:id="@+id/opened_dynamic_OrderNum"
-                        android:layout_width="150dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="ordernum"
                         android:textAlignment="textStart"
@@ -152,7 +150,7 @@
 
                     <TextView
                         android:id="@+id/opened_dynamic_Stocks"
-                        android:layout_width="150dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="stocks"
                         android:textAlignment="textStart"
@@ -165,7 +163,7 @@
 
                     <TextView
                         android:id="@+id/opened_dynamic_EstRelease"
-                        android:layout_width="150dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="estrelease"
                         android:textAlignment="textStart"
@@ -189,7 +187,9 @@
             android:id="@+id/opened_button_ConfirmOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
             android:text="Cancel order"
             android:textSize="16sp"
             android:textStyle="bold" />

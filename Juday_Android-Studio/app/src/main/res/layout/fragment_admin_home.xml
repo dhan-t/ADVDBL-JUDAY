@@ -14,7 +14,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -27,38 +26,15 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="50dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:baselineAligned="false"
-                android:baselineAlignedChildIndex="1"
-                android:orientation="horizontal"
-                android:textAlignment="center"
-                android:weightSum="5">
+            <TextView
+                android:id="@+id/home_static_TitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="5"
+                android:text="A D M I N"
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/home_static_TitleText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:layout_weight="5"
-                    android:text="T E S L A"
-                    android:textSize="34sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/home_profile_button"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:background="@drawable/round_button"
-                    android:pointerIcon="context_menu"
-                    android:textColor="#fff"
-                    android:textDirection="ltr"
-                    app:icon="@drawable/ic_profile"
-                    app:iconGravity="end"
-                    app:iconSize="20dp" />
-            </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -174,8 +150,9 @@
                     android:layout_width="30dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
+                    android:text="open order"
                     android:background="@drawable/right_edge_button"
-                    android:text="open order" />
+                    />
 
             </LinearLayout>
 

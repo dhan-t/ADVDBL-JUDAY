@@ -2,8 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="main_Red">#E72027</color>
-    <color name="mid_Red">#AF252A</color>
-    <color name="dark_Red">#7B1518</color>
+    <color name="main_Blue">#2565AF</color>
+    <color name="mid_Blue">#207CE7</color>
+    <color name="dark_Blue">#15447B</color>
     <color name="off_White">#EFEFEF</color>
+
+
 </resources>
