@@ -151,7 +151,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
                     android:text="open order"
-                    android:background="@drawable/right_edge_button"
+                    android:background="@drawable/right_edge_button_admin"
+
                     />
 
             </LinearLayout>
@@ -164,12 +165,12 @@
         android:id="@+id/bottom_navbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/main_Red"
+        android:background="@color/main_Blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_nav"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
-        app:itemActiveIndicatorStyle="@color/dark_Red"
+        app:itemActiveIndicatorStyle="@color/dark_Blue"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

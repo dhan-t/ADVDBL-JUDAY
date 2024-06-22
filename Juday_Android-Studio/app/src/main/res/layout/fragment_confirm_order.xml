@@ -31,26 +31,35 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:baselineAligned="false"
+                android:baselineAlignedChildIndex="1"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:weightSum="5">
 
                 <TextView
-                    android:id="@+id/confirm_static_TitleText"
-                    android:layout_width="135dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Confirm Order"
-                    android:textSize="30sp"
+                    android:id="@+id/customize_static_TitleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:text="Confirm order"
+                    android:textSize="34sp"
                     android:textStyle="bold" />
 
                 <Button
-                    android:id="@+id/confirm_button_Profile"
+                    android:id="@+id/confirm_return_button"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="Profile"
-                    app:icon="@drawable/ic_profile" />
+                    android:background="@drawable/round_button"
+                    android:pointerIcon="context_menu"
+                    android:textColor="#fff"
+                    android:textDirection="ltr"
+                    app:icon="@drawable/ic_return"
+                    app:iconGravity="end"
+                    app:iconSize="20dp" />
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -192,7 +201,9 @@
             android:layout_margin="8dp"
             android:text="Cancel order"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@color/off_White"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

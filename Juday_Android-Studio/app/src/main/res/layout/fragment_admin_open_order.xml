@@ -308,7 +308,8 @@
             android:layout_margin="8dp"
             android:text="Ready to ship"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@color/dark_Blue"/>
 
     </LinearLayout>
 
@@ -316,11 +317,12 @@
         android:id="@+id/bottom_navbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/main_Red"
-        app:itemActiveIndicatorStyle="@color/dark_Red"
+        android:background="@color/main_Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/bottom_nav" />
+        app:itemActiveIndicatorStyle="@color/dark_Blue"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

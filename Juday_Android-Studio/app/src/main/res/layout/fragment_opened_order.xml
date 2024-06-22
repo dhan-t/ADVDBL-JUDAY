@@ -31,26 +31,35 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:baselineAligned="false"
+                android:baselineAlignedChildIndex="1"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:weightSum="5">
 
                 <TextView
                     android:id="@+id/opened_dynamic_Ordernumber_Title"
-                    android:layout_width="135dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="#ordenum"
-                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:text="#ordernum"
+                    android:textSize="34sp"
                     android:textStyle="bold" />
 
                 <Button
-                    android:id="@+id/opened_button_return"
+                    android:id="@+id/opened_return_button"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="Return"
-                    app:icon="@drawable/ic_return" />
+                    android:background="@drawable/round_button"
+                    android:pointerIcon="context_menu"
+                    android:textColor="#fff"
+                    android:textDirection="ltr"
+                    app:icon="@drawable/ic_return"
+                    app:iconGravity="end"
+                    app:iconSize="20dp" />
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -181,7 +190,8 @@
             android:layout_margin="8dp"
             android:text="Change Parts"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@color/dark_Red"/>
 
         <Button
             android:id="@+id/opened_button_ConfirmOrder"
@@ -192,7 +202,9 @@
             android:layout_marginBottom="8dp"
             android:text="Cancel order"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@color/off_White"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

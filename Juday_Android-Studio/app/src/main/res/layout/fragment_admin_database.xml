@@ -64,7 +64,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_range300"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -109,7 +109,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_reorder_button_range300"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -138,7 +138,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_range400"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -182,7 +182,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_range400"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -211,7 +211,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_range500"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -255,7 +255,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_range500"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -284,7 +284,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_drivetrainAWD"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -328,7 +328,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_drivetrainAWD"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -357,7 +357,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_drivetrainRWD"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -401,7 +401,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_drivetrainRWD"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -430,7 +430,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_paintRED"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -476,7 +476,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_paintRED"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -505,7 +505,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_paintWHITE"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -550,7 +550,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_paintWHITE"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -579,7 +579,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_paintBLACK"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -623,7 +623,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_paintBLACK"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -652,7 +652,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_wheel18"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -698,7 +698,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_wheel18"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -727,7 +727,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_wheel19"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -772,7 +772,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_wheel19"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -801,7 +801,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_wheel20"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -846,7 +846,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_wheel20"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -875,7 +875,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_chargingWALL"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -920,7 +920,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_order_button_chargingWALL"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -929,41 +929,6 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginBottom="15dp"
-                        android:text="Charging"
-                        android:textAlignment="center"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/stocks_dynamic_CHARGING_STOCK_WALL"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="15dp"
-                        android:text="Wall"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/stocks_static_CHARGING_Restock_WALL"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="15dp"
-                        android:text="Est. Restock: 7 days"
-                        android:textAlignment="center" />
-
-                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -984,7 +949,7 @@
                     android:weightSum="3">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/admin_restock_button_chargingMOBILE"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -1029,7 +994,7 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/admin_open_button_chargingMOBILE"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".8"
@@ -1051,11 +1016,12 @@
         android:id="@+id/bottom_navbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/main_Red"
-        app:itemActiveIndicatorStyle="@color/dark_Red"
+        android:background="@color/main_Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/bottom_nav" />
+        app:itemActiveIndicatorStyle="@color/dark_Blue"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
